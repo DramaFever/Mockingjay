@@ -19,6 +19,8 @@ Pod::Spec.new do |spec|
         'Sources/Mockingjay/NSURLSessionConfiguration.swift',
         'Sources/Mockingjay/MockingjayURLSessionConfiguration.m'
   end
+  
+  spec.swift_version = '4.2'
 
   spec.subspec 'XCTest' do |xctest_spec|
     xctest_spec.dependency 'Mockingjay/Core'
